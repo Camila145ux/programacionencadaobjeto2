@@ -26,7 +26,7 @@ public class Usuario {
     }
 
     public String getapellido(){         //apellido
-        return this.nombre;
+        return this.apellido;
     }
 
     public int getfechaNacimiento(){     //fehca de nacimiento
@@ -45,7 +45,7 @@ public class Usuario {
         this.apellido = apellido;
     }
 
-    public void serEdad(int edad){
+    public void setEdad(int edad){
         this.edad = edad;
     }
 
